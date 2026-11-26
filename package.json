@@ -1,0 +1,9 @@
+{
+  "name": "game-guesswho-online",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GUESS WHO ONLINE — kuis K-Drama/K-Pop/Lagu 2 pemain via room code + link undangan",
+  "main": "server/server.js",
+  "scripts": { "start": "node server/server.js", "test": "node server/test-ws.js" },
+  "dependencies": { "ws": "^8.18.0" }
+}
